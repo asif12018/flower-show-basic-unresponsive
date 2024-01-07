@@ -1,0 +1,371 @@
+/*=======font link======*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+/*=====animation keyframe======*/
+@-webkit-keyframes color-change-2x {
+    0% {
+        background: #19dcea;
+    }
+
+    100% {
+        background: #b22cff;
+    }
+}
+
+@keyframes color-change-2x {
+    0% {
+        background: #19dcea;
+    }
+
+    100% {
+        background: #b22cff;
+    }
+}
+
+
+/*======css animation=======*/
+
+.color-change-2x {
+    -webkit-animation: color-change-2x 2s linear infinite alternate both;
+    animation: color-change-2x 2s linear infinite alternate both;
+}
+
+/*===========Default css start from here=============*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+
+}
+
+.col-3 {
+    width: 25%;
+    margin: 0 15px;
+
+}
+
+.col-4 {
+    width: 33.33%;
+    margin: 0 15px;
+
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sub-header {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    padding: 20px 40px;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: #E55473;
+    background-color: white;
+}
+
+/*===========Header style start from here==============*/
+header {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+
+.banner-img img {
+    width: 635px;
+    height: 800px;
+    float: right;
+
+}
+
+.title {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.banner-content {}
+
+.banner-description {
+    margin: 32px 0;
+}
+
+/* ===========feature scetion style start here======= */
+
+.section-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+/* .card {
+    width: 460px;
+    height: 530px;
+    text-align: center;
+} */
+
+.card img {
+    max-width: 310px;
+    height: 428px;
+
+}
+
+.card .img-holder {
+    padding: 110px 75px 0 75px;
+}
+
+.section-heading {
+    text-align: center;
+}
+
+.card h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+
+}
+
+.card1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.card2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.card3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+#Feature {
+    margin: 120px 0;
+}
+
+.card h3 {
+    margin-top: 32px;
+}
+
+/* ============service style start from here======== */
+.section-heading {
+    margin-bottom: 40px;
+}
+
+.service-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.service-img img {
+    height: 88px;
+    width: 88px;
+}
+
+/* =============offer section start from here=========== */
+
+#offer-section {
+    background: rgba(229, 84, 115, 0.05);
+    margin: 128px 0;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    border-radius: 8px;
+
+}
+
+.offer-img {
+    width: 318px;
+    height: 420px;
+}
+
+.offer-img img {
+    width: 100%;
+    height: auto;
+}
+
+.offer-content h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.offer-content .of {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-content p {
+    margin: 24px 0;
+}
+
+/* ========follower section style start from here======= */
+.follower-img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follower-container {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.follower-img-container .follower-img {
+    width: 340px;
+
+}
+
+.follower-img-container .follower-img img {
+
+    width: 100%;
+
+}
+
+.follower-content h2 {
+
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.follower-content p {
+    margin: 24px 40px;
+}
+
+/*==========hot deals style start here=========*/
+
+.flower-describtion {
+    text-align: center;
+}
+
+.flower-box {
+    background: url('/Flower-Asset/Rectangle-9.png');
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+
+.follower-content {
+    text-align: center;
+
+}
+
+.follower-content input {
+    width: 700px;
+    padding: 17px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+.follower-content input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.follower-content input:focus {
+    border: none;
+}
+
+.follower-content button {
+    padding: 16px 8px;
+}
+
+
+/*========footer style start here======*/
+.footer-content {
+    text-align: center;
+    /* margin: 0 auto;
+    align-items: center; */
+}
+
+footer {
+    background: #111010;
+    padding: 128px 0;
+}
+
+.footer-content h3 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-content .footer-description {
+    color: rgba(255, 255, 255, 0.90);
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin:24px 0;
+}
+
+.footer-content span {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-content .copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
