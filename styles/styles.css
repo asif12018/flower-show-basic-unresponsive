@@ -290,7 +290,7 @@ header {
 }
 
 .flower-box {
-    background: url('/Flower-Asset/Rectangle-9.png');
+    background: url('./Flower-Asset/Rectangle-9.png');
     padding: 100px 0;
     margin-bottom: 100px;
 }
